@@ -1,6 +1,3 @@
-p {
-    color: red;
-}
-#about-me{
-    font-size: xx-large;
+body {
+    border: 100px rgb(82, 60, 60) solid;  
 }

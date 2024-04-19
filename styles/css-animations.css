@@ -87,5 +87,7 @@ transform: scale(.8);
 }
 .fading-gallery img:hover{
     opacity: 1;
+    transform: translate(0px,-10px) scale(2.5);
+    box-shadow: 10px 5px 5px black;
 
 }

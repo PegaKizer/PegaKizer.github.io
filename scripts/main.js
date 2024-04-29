@@ -38,11 +38,46 @@ for (let i = 1; i <= 10; i++) {
 }
 //6
 // Add the array arr with the same values as above, and write a loop to log each element to the console.
-console.log("task 6");
-arr[3,1,4,5,9]
+console.log("Task 6")
+let arr = [3, 1, 4, 1, 5];
+for (let i = 0; i < arr.length; i++) {
+   console.log(arr[i]);
+}
+
+
 // 7
 // Using a normal forward for-loop (for (let i = 0; i < arr.length; i++)), use .at() to log each element of arr in reverse order (i.e. 5, 1, 4, 1, 3)
-console.log("task 7")
-for (let i = 1; i < arr.length; i--)[
-    console.log()
-]
+console.log("Task 7")
+for (let i = arr.length - 1; i >= 0; i--) {
+    console.log(arr.at(i));
+}
+
+//8
+console.log("Task 8");
+let cubeNumbers = [];
+for (let i = 1; i <= 10; i++) {
+    cubeNumbers.push(i ** 3);
+}
+console.log(cubeNumbers);
+
+//9 
+console.log("Task 9");
+let fibonacciNumbers = [];
+fibonacciNumbers[0] = 0;
+fibonacciNumbers[1] = 1;
+for (let i = 2; i < 10; i++) {
+    fibonacciNumbers[i] = fibonacciNumbers[i - 1] + fibonacciNumbers[i - 2];
+}
+console.log(fibonacciNumbers);
+
+//10
+console.log("Task 10");
+let reversedArr = [];
+for (let i = arr.length - 1; i >= 0; i--) {
+    reversedArr.push(arr[i]);
+}
+console.log(reversedArr);
+
+
+
+

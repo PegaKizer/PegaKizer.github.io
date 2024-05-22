@@ -17,12 +17,12 @@ body {
 }
 #jonah-genius{
     padding: 5px;
-    background-color: #eeeeee;
+    background-color: #040000;
     border: purple solid 5px;
 }
   
   .job-title {
-    color: black;
+    color: aqua;
     font-weight: bold;
   }
   
@@ -33,3 +33,5 @@ body {
   a:hover {
     text-decoration: green way underline;
   }
+  
+  

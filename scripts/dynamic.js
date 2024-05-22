@@ -11,10 +11,3 @@ for (let i = 0; i < colors.length; i++) {
 
 
 document.body.appendChild(ul);
-
-
-
-
-
-
-    

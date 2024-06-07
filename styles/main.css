@@ -1,4 +1,7 @@
 
+*{
+transition: .25s;
+}
 body {
     font-family: 'Courier New', Courier, monospace
   }
@@ -48,7 +51,9 @@ body {
   }
   
   a:hover {
-    text-decoration: green way underline;
+    text-decoration: blue wavy underline;
   }
-  
+   .zoom:hover {
+transform: scale(1.12);
+  }
   
